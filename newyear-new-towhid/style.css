@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Banner Section style*/
+.header {
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: cover;
+    text-align: right;
+    padding-top: 216px;
+    padding-right: 230px;
+    /* text-justify: right; */
+}
+
+.header-container {
+    max-width: 525px;
+}
+
+.banner-title {
+    color: white;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.banner-text {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+
+.primary-btn {
+    background-color: white;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* Failure section style */
+
+.failure {
+    display: flex;
+    align-items: center;
+    margin-left: 206px;
+    margin-right: 322px;
+}
+
+.failure-content {
+    padding-left: 87px;
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    max-width: 288px;
+}
+
+.failure-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    max-width: 416px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+.tic-color {
+    color: lightgreen;
+}
+
+/* Planning section */
+
+.plan {
+    max-width: 1140px;
+    text-align: center;
+    margin: auto;
+}
+
+.plan-components {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding-top: 129px;
+    padding-bottom: 50px;
+}
+
+.plan-comp-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+.plan-comp-subtitle {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    padding-bottom: 136px;
+}
+
+/* Motivation section style */
+.motivation {
+    background-image: linear-gradient(to right, rgba(0, 71, 179, 1), rgba(0, 71, 179, 0)), url('../images/watch.png');
+    background-repeat: no-repeat;
+    margin-left: 230px;
+    max-width: 1140px;
+    padding-top: 64px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.motivation-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    padding-bottom: 24px;
+    max-width: 459px;
+
+}
+
+/* footer style */
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    margin-top: 130px;
+}
+
+.contact {
+    max-width: 485px;
+    margin: 130px 331px 130px 230px;
+}
+
+.subscribe {
+    max-width: 325px;
+    margin-top: 130px;
+}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.contact p {
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 31px;
+}
+
+input {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 324px;
+    padding: 15px 10px;
+    border: 1px solid white;
+}
+
+.secondary-btn {
+    background-color: darkblue;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.icon {
+    padding-right: 17px;
+}
