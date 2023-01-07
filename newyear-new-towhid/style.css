@@ -74,21 +74,21 @@
     color: lightgreen;
 }
 
-/* Planning section */
+/* Planning for this year section style*/
 
-.plan {
+.year-plan {
     max-width: 1140px;
     text-align: center;
     margin: auto;
 }
 
-.plan-components {
+.year-plan-components {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.plan-title {
+.year-plan-title{
     font-weight: 700;
     font-size: 40px;
     color: #151414;
@@ -96,7 +96,7 @@
     padding-bottom: 50px;
 }
 
-.plan-comp-title {
+.yplan-comp-title {
     font-weight: 700;
     font-size: 30px;
     color: #151414;
@@ -104,7 +104,7 @@
     padding-bottom: 16px;
 }
 
-.plan-comp-subtitle {
+.yplan-comp-subtitle {
     font-weight: 500;
     font-size: 25px;
     color: #737272;
@@ -192,4 +192,35 @@ input {
 
 .icon {
     padding-right: 17px;
+}
+
+/* Daily Plan Style */
+.daily-plan{
+    max-width: 1140px;
+    margin-left: 235px;
+}
+.daily-plan-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;  
+}
+.daily-plan-properties{
+    display: flex;
+    align-items: center;
+    gap: 25px; 
+}
+.property-outline{
+    background-color: #4da9ff;
+    color: white;
+    margin-right: 20px;
+    padding: 30px 20px 40px 40px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.4);
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.individual-dplan-title{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
